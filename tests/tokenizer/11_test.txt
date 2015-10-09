@@ -1,0 +1,17 @@
+begin
+  i := l; j := r;
+  q := a[(l + r) div 2];
+  repeat
+   while (a[i] < q) do inc(i);
+    while (q < a[j]) do dec(j);
+    if (i <= j) then
+    begin
+      w := a[i];
+      a[i] := a[j];
+      a[j] := w;
+      inc(i); dec(j);
+    end;
+  until (i > j);
+  if (l < j) then qSort(l, j);
+  if (i < r) then qSort(i, r);
+end;

@@ -1,0 +1,4 @@
+1	1	integer	21
+1	5	integer	32
+1	9	integer	3
+1	12	error	BadChar

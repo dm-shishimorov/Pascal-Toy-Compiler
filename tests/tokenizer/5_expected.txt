@@ -1,0 +1,6 @@
+1	1	identifier	a
+1	4	identifier	bd
+2	1	comment	//comment
+3	1	identifier	fd
+3	5	integer	43
+4	1	comment	//comment

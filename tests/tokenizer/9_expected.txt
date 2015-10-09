@@ -1,0 +1,6 @@
+1	1	char	'f'
+2	1	string	'd sdf'
+3	1	string	''
+4	1	char	'8'
+5	1	char	'C'
+6	1	error	BadCC
