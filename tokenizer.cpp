@@ -67,6 +67,8 @@ Token::Token(string& value, int finalState, int col, int row) {
       break;
     case fstChar:
       _type = TOKEN_TYPE_CHAR;
+      _value = atoi(_value.substr(1, _value.size() - 1).c_str());
+      _value = "'" + _value + "'";
       break;
     case fstReal:
       _type = TOKEN_TYPE_REAL;
